@@ -1,6 +1,5 @@
 #include <libhat/scanner.hpp>
 #include <libhat/signature.hpp>
-#include "vcproxy/vcruntime.hpp"
 #include "utils/detour.hpp"
 
 // bool TrialManager::isTrial()
@@ -18,9 +17,7 @@ BOOL WINAPI DllMain(HMODULE /* module */, DWORD reason,  LPVOID /* reserved */)
     {
         case DLL_PROCESS_ATTACH:
         {
-            proxy::init();
             MH_Initialize();
-
             hat::scan_result isTrialAddr = hat::find_pattern(gIsTrialSig, ".text");
             gIsTrialDetour = std::make_unique<detour>(isTrialAddr.get(), &isTrial);
             gIsTrialDetour->enable();
@@ -31,9 +28,7 @@ BOOL WINAPI DllMain(HMODULE /* module */, DWORD reason,  LPVOID /* reserved */)
         {
             gIsTrialDetour->disable();
             gIsTrialDetour.reset();
-
             MH_Uninitialize();
-            proxy::shutdown();
 
             break;
         }
